@@ -12,7 +12,7 @@ public class FirstSpringProjectApplication {
 		ApplicationContext context = SpringApplication.run(FirstSpringProjectApplication.class, args);
 
 		RegistrationService registrationService = (RegistrationService) context.getBean("registrationService");
-		System.out.println("Minumum age of user: " + registrationService.getAge());
+		System.out.println("Minimum age of user: " + registrationService.getAge());
 		System.out.println("Available countries: " + registrationService.getCountries());
 		System.out.println("Subscribe to newsletter: " + registrationService.isSubscribed());
 	}
