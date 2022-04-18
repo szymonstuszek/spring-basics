@@ -7,7 +7,7 @@ import pl.mentoring.devs.firstspringproject.service.WebService;
 
 import java.util.List;
 
-@Component
+//@Component
 public class WebController {
 
     private final WebService webService;

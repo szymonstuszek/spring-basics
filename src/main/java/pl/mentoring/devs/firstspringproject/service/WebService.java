@@ -5,7 +5,7 @@ import pl.mentoring.devs.firstspringproject.repository.WebDao;
 
 import java.util.List;
 
-@Component
+//@Component
 public final class WebService {
 
     private final WebDao webDao;
