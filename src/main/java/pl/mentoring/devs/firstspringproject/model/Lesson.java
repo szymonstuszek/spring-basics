@@ -1,9 +1,9 @@
 package pl.mentoring.devs.firstspringproject.model;
 
-public class Course {
+public class Lesson {
     private String name;
 
-    public Course(String name) {
+    public Lesson(String name) {
         this.name = name;
     }
 

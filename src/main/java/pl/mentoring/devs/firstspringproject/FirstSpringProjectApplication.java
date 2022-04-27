@@ -3,7 +3,7 @@ package pl.mentoring.devs.firstspringproject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import pl.mentoring.devs.firstspringproject.model.Course;
+import pl.mentoring.devs.firstspringproject.model.Lesson;
 
 @SpringBootApplication
 public class FirstSpringProjectApplication {
@@ -11,13 +11,13 @@ public class FirstSpringProjectApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(FirstSpringProjectApplication.class, args);
 
-		Course course = (Course) context.getBean("course");
-		Course course2 = (Course) context.getBean("course");
+		Lesson lesson = (Lesson) context.getBean("lesson");
+		Lesson lesson2 = (Lesson) context.getBean("lesson");
 
-		course.setName("Math");
+		lesson.setName("Math");
 
-		System.out.println("Updated name for course: " + course.getName());
-		System.out.println("Updated name for course2: " + course2.getName());
+		System.out.println("Updated name for course: " + lesson.getName());
+		System.out.println("Updated name for course2: " + lesson2.getName());
 
 	}
 }
