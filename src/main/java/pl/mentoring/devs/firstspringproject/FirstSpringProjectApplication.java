@@ -16,8 +16,8 @@ public class FirstSpringProjectApplication {
 
 		lesson.setName("Math");
 
-		System.out.println("Updated name for course: " + lesson.getName());
-		System.out.println("Updated name for course2: " + lesson2.getName());
+		System.out.println("Updated name for lesson: " + lesson.getName());
+		System.out.println("Updated name for lesson2: " + lesson2.getName());
 
 	}
 }

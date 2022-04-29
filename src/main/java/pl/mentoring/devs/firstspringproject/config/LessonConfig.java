@@ -9,7 +9,7 @@ import pl.mentoring.devs.firstspringproject.model.Lesson;
 public class LessonConfig {
 
     @Bean
-    @Scope("singleton")
+    @Scope("prototype")
     public Lesson lesson() {
         return new Lesson("Consulting");
     }
